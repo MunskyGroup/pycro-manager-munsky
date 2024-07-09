@@ -14,12 +14,12 @@ version = version_ns["__version__"]
 setuptools.setup(
     name="pycromanager",
     version=version,
-    author="Henry Pinkard",
-    author_email="henry.pinkard@gmail.com",
+    author="Munsky Group",
+    author_email="Dmitri.Svetlov@ColoState.edu",
     description="Open source microscope control using python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/micro-manager/pycro-manager",
+    url="https://github.com/MunskyGroup/pycro-manager-munsky",
     packages=setuptools.find_packages(),
     install_requires=[
         "numpy",
